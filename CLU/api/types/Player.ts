@@ -1,5 +1,5 @@
-import { Position3D } from "./Position3D";
-import { Rotation3D } from "./Rotation3D";
+import { Position3D } from "./Position3D.ts";
+import { Rotation3D } from "./Rotation3D.ts";
 
 export class Player {
     /**
@@ -16,4 +16,8 @@ export class Player {
      * Player's Rotation
     */
     public rotation: Rotation3D;
+
+    public constructor(username: string, position: Position3D, rotation: Rotation3D) {
+        this.username = username; this.position = position; this.rotation = rotation;
+    }
 }

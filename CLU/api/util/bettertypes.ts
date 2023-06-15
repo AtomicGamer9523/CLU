@@ -1,9 +1,9 @@
-export * from "./types/option/option";
-export * from "./types/result/result";
+export * from "./types/option/option.ts";
+export * from "./types/result/result.ts";
 
-export * from "./types/UnModifiable";
-export * from "./types/Modifiable";
-export * from "./types/UnInit";
+export * from "./types/UnModifiable.ts";
+export * from "./types/Modifiable.ts";
+export * from "./types/UnInit.ts";
 
-export * from "./types/raw/Dangerous";
-export * from "./types/raw/Raw";
+export * from "./types/raw/Dangerous.ts";
+export * from "./types/raw/Raw.ts";

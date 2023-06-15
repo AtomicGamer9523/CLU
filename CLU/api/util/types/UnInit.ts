@@ -1,4 +1,4 @@
-import { None, Option, Some } from "../bettertypes";
+import { None, Option, Some } from "../bettertypes.ts";
 
 export class UnInit<T> {
 

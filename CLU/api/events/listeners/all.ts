@@ -1,1 +1,1 @@
-export * from "./IGameEventListener";
+export * from "./IGameEventListener.ts";

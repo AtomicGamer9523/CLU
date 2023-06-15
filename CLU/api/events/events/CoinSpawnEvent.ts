@@ -1,4 +1,4 @@
-import { Position3D } from "../../types/Position3D";
+import { Position3D } from "../../types/Position3D.ts";
 
 export class CoinSpawnEvent {
     /**

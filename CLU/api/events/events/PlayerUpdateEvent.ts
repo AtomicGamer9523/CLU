@@ -1,6 +1,6 @@
-import { Position3D } from "../../types/Position3D";
-import { Rotation3D } from "../../types/Rotation3D";
-import { Player } from "../../types/Player";
+import { Position3D } from "../../types/Position3D.ts";
+import { Rotation3D } from "../../types/Rotation3D.ts";
+import { Player } from "../../types/Player.ts";
 
 export class PlayerUpdateEvent {
     /**

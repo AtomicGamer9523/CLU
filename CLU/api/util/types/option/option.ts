@@ -1,5 +1,5 @@
-import { Result } from '../../bettertypes';
-import { OptionImpl } from "./impl";
+import { Result } from '../../bettertypes.ts';
+import { OptionImpl } from "./impl.ts";
 
 export interface Option<T> {
     /**

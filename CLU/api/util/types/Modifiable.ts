@@ -1,4 +1,4 @@
-import { UnModifiable } from "../bettertypes";
+import { UnModifiable } from "../bettertypes.ts";
 
 export class Modifiable<T> {
     public static new<T>(v: T): Modifiable<T> {

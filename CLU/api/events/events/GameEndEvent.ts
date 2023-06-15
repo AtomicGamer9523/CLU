@@ -1,4 +1,4 @@
-import { Player } from "../../types/Player";
+import { Player } from "../../types/Player.ts";
 
 export class GameEndEvent {
     /**

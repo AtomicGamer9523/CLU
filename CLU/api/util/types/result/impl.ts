@@ -1,5 +1,5 @@
-import { Option, None, Some } from "../../bettertypes";
-import { Result, Err, Ok } from "../../bettertypes";
+import { Option, None, Some } from "../../bettertypes.ts";
+import { Result, Err, Ok } from "../../bettertypes.ts";
 
 type ResultInputType = "Ok" | "Err";
 

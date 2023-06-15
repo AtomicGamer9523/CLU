@@ -7,7 +7,7 @@ import {
 
     // Questions
     QuestionAskEvent, QuestionResultEvent
-} from "../events/all";
+} from "../events/all.ts";
 
 export interface IGameEventListener {
     /**

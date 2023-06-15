@@ -1,4 +1,4 @@
-import { Option, Raw } from "../util/bettertypes";
+import { Option, Raw } from "../util/bettertypes.ts";
 
 /**
  * A question asked when a user tries to get a coin.

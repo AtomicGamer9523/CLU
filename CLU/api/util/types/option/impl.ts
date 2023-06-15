@@ -1,5 +1,5 @@
-import { Option, Some, None } from '../../bettertypes';
-import { Result, Err, Ok } from '../../bettertypes';
+import { Option, Some, None } from '../../bettertypes.ts';
+import { Result, Err, Ok } from '../../bettertypes.ts';
 
 export class OptionImpl<T> implements Option<T> {
     private value: T | undefined

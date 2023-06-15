@@ -1,0 +1,8 @@
+import * as esbuild from 'https://deno.land/x/esbuild@v0.18.3/mod.js'
+
+await esbuild.build({
+    entryPoints: ['example.js'],
+    bundle: true,
+    keepNames: true,
+    outfile: 'out.js',
+});

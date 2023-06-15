@@ -1,40 +1,25 @@
 import {
     IGameEventListener
-} from "../../api/events/listeners/all";
+} from "../../api/events/listeners/all.ts";
 import {
     // Specials
     TickEvent, CoinSpawnEvent, GameEndEvent,
 
     // Player Based
-    PlayerMoveEvent, PlayerRotateEvent,
+    PlayerUpdateEvent,
 
     // Questions
-    QuestionAskEvent, QuestionResultEvent
-} from "../../api/events/events/all";
+    QuestionAskEvent, QuestionResultEvent,
+} from "../../api/events/events/all.ts";
 
 export class GameEventListener implements IGameEventListener {
     constructor() {
-        
+        console.log("Started !")
     }
-    onTick(event: TickEvent): void {
-        throw new Error("Method not implemented.");
-    }
-    onPlayerMove(event: PlayerMoveEvent): void {
-        throw new Error("Method not implemented.");
-    }
-    onPlayerRotate(event: PlayerRotateEvent): void {
-        throw new Error("Method not implemented.");
-    }
-    onCoinSpawn(event: CoinSpawnEvent): void {
-        throw new Error("Method not implemented.");
-    }
-    onGameEnd(event: GameEndEvent): void {
-        throw new Error("Method not implemented.");
-    }
-    onQuestionAsk(event: QuestionAskEvent): void {
-        throw new Error("Method not implemented.");
-    }
-    onQuestionResult(event: QuestionResultEvent): void {
-        throw new Error("Method not implemented.");
-    }
+    public onPlayerUpdate(event: PlayerUpdateEvent): void {}
+    public onTick(event: TickEvent): void {}
+    public onCoinSpawn(event: CoinSpawnEvent): void {}
+    public onGameEnd(event: GameEndEvent): void {}
+    public onQuestionAsk(event: QuestionAskEvent): void {}
+    public onQuestionResult(event: QuestionResultEvent): void {}
 }
