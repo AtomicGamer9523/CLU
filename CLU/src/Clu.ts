@@ -15,7 +15,7 @@ const DEBUG: ICluDebug = {
     description: "A built-in feature rich C.L.U",
     version: "v0.1.0",
     authors: ["HyperNite"],
-}
+} as const;
 
 export class Clu implements IClu {
     private listener: GameEventListener;

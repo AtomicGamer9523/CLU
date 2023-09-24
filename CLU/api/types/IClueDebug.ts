@@ -1,24 +1,12 @@
 export interface ICluDebug {
-    /**
-     * A simple name
-    */
+    /** A simple name */
     readonly name: string;
-
-    /**
-     * A short description
-    */
+    /** A short description */
     readonly description: string;
-
-    /**
-     * version
-    */
+    /** Version */
     readonly version: string;
-
-    /**
-     * Authors
-    */
-    readonly authors: string[];
-
+    /** Authors */
+    readonly authors: readonly string[];
     /**
      * Other custom metadata.
      * Not required but can be used for storing public constants like discord server invite ;)
