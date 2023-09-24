@@ -1,6 +1,4 @@
-import {
-    IGameEventListener
-} from "../../api/events/listeners/all.ts";
+import { IGameEventListener } from "../../api/events/listeners/all.ts";
 import {
     // Specials
     TickEvent, CoinSpawnEvent, GameEndEvent,

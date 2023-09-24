@@ -33,24 +33,3 @@ export interface IClu {
 
     getGameEventHandler(): IGameEventListener;
 }
-
-/**
- * Links the Clu Implementor to then be used!
- * 
- * As a developer do:
- * ```ts
- * LINK(settings => new MyCustomClu(settings));
- * ```
- * 
- * As a user do:
- * ```ts
- * import 'package/MyCustomClu';
- * ```
- * 
- * @param {(settings: Settings) => IClu} f function that registers the custom Clu Implementor
-*/
-export const LINK = (f: (settings: Settings) => IClu): void => {
-    Object.defineProperty(globalThis, "__CLU$$", {
-        value: (settings: Settings) => { return f(settings) }
-    });
-}

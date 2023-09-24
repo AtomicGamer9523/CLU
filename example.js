@@ -1,5 +1,5 @@
-import CLU from "./CLU/api/CLU.ts";
-import './CLU/src/Clu.ts';
+import init from './CLU/api/CLU.ts';
+import CLU from './CLU/src/CLU.ts';
 
-const debug = CLU().debug();
+const debug = init(CLU).debug();
 console.log(debug);

@@ -24,6 +24,7 @@ export interface ICluDebug {
      * Not required but can be used for storing public constants like discord server invite ;)
     */
     readonly custom?: {
+        //deno-lint-ignore no-explicit-any
         [key: string]: any;
     }
 }

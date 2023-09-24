@@ -1,11 +1,11 @@
-import { Goal } from "../../api/pathing/goal/goal.ts";
 import { ICustomGoalProcess } from "../../api/processes/all.ts";
+import { Position3D } from "../../api/types/Position3D.ts";
 
 export class CustomGoalProcess implements ICustomGoalProcess {
-    setGoal(goal: Goal): void {
+    setGoal(goal: Position3D): void {
         throw new Error("Method not implemented.");
     }
-    getGoal(): Goal {
+    getGoal(): Position3D {
         throw new Error("Method not implemented.");
     }
     path(): void {

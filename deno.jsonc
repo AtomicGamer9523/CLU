@@ -1,0 +1,14 @@
+{
+  // Import map
+  "imports": {
+    "types+": "https://tokiojs.projects.matveit.dev/tss/types%2B.ts",
+    "@impl": "./CLU/src/CLU.ts",
+    "@api": "./CLU/api/CLU.ts"
+  },
+
+  "tasks": {
+    "build": "deno run -A scripts/build.ts"
+  },
+
+  "lock": "./build/deno.lock"
+}

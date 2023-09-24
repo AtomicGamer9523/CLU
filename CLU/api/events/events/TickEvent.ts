@@ -1,4 +1,4 @@
-import { Dangerous } from "../../util/bettertypes.ts";
+import { Dangerous } from "types+";
 
 export class TickEvent {
     /**
